@@ -1,0 +1,18 @@
+.card{
+    background-color: #d4d4d4;
+    width: 300px;
+    margin: 20px auto
+}
+
+.card-head {
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.member{
+    color: #717171;
+}
