@@ -1,7 +1,9 @@
 .cardcar {
     background-color: #6de2ff;
     width: 300px;
-    margin: 20px auto
+    height: 500px;
+    margin: 20px auto;
+    margin-top: 50px;
 }
 
 .cardcar-head {
@@ -15,4 +17,8 @@
 
 .member{
     color: #717171;
+}
+
+.pencet {
+    background-color: yellow;
 }

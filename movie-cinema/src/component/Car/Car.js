@@ -3,12 +3,15 @@ import "./Car.css";
 
 
 const Car = (props) => {
-    const { merk, harga, isNew, colors, beli } = props;
+    const { merk, harga, isNew, colors, beli, gambar } = props;
     return (
       <>
       {/* <img src={aku} alt="foto-mobil" width={264} /> */}
       <table className="cardcar">
         <thead className="cardcar-head">
+          <tr>
+            <td> <img src={gambar} alt=""/></td>
+          </tr>
           <tr>
             <td><h3>Merk Mobil : {merk}</h3></td>
           </tr>
@@ -23,8 +26,9 @@ const Car = (props) => {
           <tr>
             <td><h5>Varian : {colors.map((color) => color + ", ")}</h5></td>
           </tr>
+          <button onClick={beli} className="pencet"> Beli  </button>
         </tbody>
-             <button onClick={beli} > Beli  </button>
+             
       </table>
       
       </>

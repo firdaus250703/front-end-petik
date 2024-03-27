@@ -2,7 +2,7 @@ import "./User.css";
 
 
 const User = (props) => {
-    const { nama, member, tombol, gambar} = props;
+    const { nama, member, message, gambar} = props;
     // const tableStyle = {border:"1px solid black", width : "300px", margin: "20px auto"}
     // const headerStyle = {textAlign: "center", fontWeight: "bold"};
     // const cellStyle = {textAlign: "center"};
@@ -20,7 +20,7 @@ const User = (props) => {
           <td colSpan={2} >{member}</td>
         </tr>
         <tr>
-          <td><button onClick={tombol}> message </button></td>
+          <td><button onClick={message}> message </button></td>
           <td><button>subscribe</button></td>
         </tr>
         </tbody>
@@ -28,6 +28,8 @@ const User = (props) => {
       </>
     );
   }
+
+// 
 
   
   export default User;
