@@ -3,6 +3,8 @@ import Car from "../Car/Car.js";
 import Movies from "../Movies/Movies.js";
 import "./Main.css";
 import Hero from "../Hero/Hero.js";
+import Counter from "../Counter/Counter.js";
+import AddMovieForm from "../AddMovieForm/AddMovieForm.js";
 
 
 const Main = () => {
@@ -115,7 +117,8 @@ const Main = () => {
          message={() => alert(data.message)}/>))
       }
 
-
+      {/* <Counter/> */}
+      
         </div>
     );
 };

@@ -9,6 +9,7 @@ import Main from "./component/Main/Main.js";
 
 
 function App() {
+
   return (
     <div className="container">
       <Navbar/>
@@ -26,7 +27,7 @@ function App() {
 
 
       <Footer nama = "Muhammad Firdaus"/>
-      <h1>hello world</h1>
+      
     </div>
     
   );
